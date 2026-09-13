@@ -1,0 +1,42 @@
+{
+  "title": "Vitoset Aqua",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vitoset Aqua auswählen",
+        "description": "Wähle deine Enthärtungsanlage aus der bestehenden ViCare-Verbindung.",
+        "data": {
+          "device": "Enthärtungsanlage"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Diese Enthärtungsanlage ist bereits eingerichtet.",
+      "no_vicare": "Richte zuerst die Integration Viessmann ViCare ein.",
+      "vicare_not_ready": "Die ViCare-Verbindung ist noch nicht bereit. Prüfe ihren Status und versuche es erneut. Getestet mit Home Assistant 2026.9.2.",
+      "no_aqua": "In den geladenen ViCare-Verbindungen wurde keine Vitoset Aqua gefunden."
+    },
+    "error": {
+      "device_unavailable": "Die gewählte Enthärtungsanlage ist nicht mehr verfügbar. Wähle sie erneut aus."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "total_liters": {
+        "name": "Wasserverbrauch gesamt"
+      },
+      "today_liters": {
+        "name": "Wasserverbrauch heute"
+      },
+      "flow_lpm": {
+        "name": "Aktueller Durchfluss"
+      },
+      "salt_days": {
+        "name": "Salzreichweite"
+      },
+      "max_flow_lpm": {
+        "name": "Maximaler Durchfluss"
+      }
+    }
+  }
+}

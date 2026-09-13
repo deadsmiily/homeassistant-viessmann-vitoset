@@ -1,0 +1,42 @@
+{
+  "title": "Vitoset Aqua",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select Vitoset Aqua",
+        "description": "Choose your water softener from the existing ViCare connection.",
+        "data": {
+          "device": "Water softener"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This water softener is already configured.",
+      "no_vicare": "Set up the Viessmann ViCare integration first.",
+      "vicare_not_ready": "The ViCare connection is not ready. Check its status, then try again. Home Assistant 2026.9.2 is the tested version.",
+      "no_aqua": "No Vitoset Aqua was found in the loaded ViCare connections."
+    },
+    "error": {
+      "device_unavailable": "The selected water softener is no longer available. Select it again."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "total_liters": {
+        "name": "Water consumption total"
+      },
+      "today_liters": {
+        "name": "Water consumption today"
+      },
+      "flow_lpm": {
+        "name": "Current flow"
+      },
+      "salt_days": {
+        "name": "Salt remaining"
+      },
+      "max_flow_lpm": {
+        "name": "Maximum flow"
+      }
+    }
+  }
+}

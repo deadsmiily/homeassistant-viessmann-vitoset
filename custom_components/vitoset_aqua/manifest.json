@@ -1,0 +1,12 @@
+{
+  "domain": "vitoset_aqua",
+  "name": "Vitoset Aqua",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["vicare"],
+  "documentation": "https://www.home-assistant.io/integrations/vicare/",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}
