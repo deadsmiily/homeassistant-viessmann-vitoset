@@ -2,6 +2,8 @@
 
 Version 1.0.0 · Für die vorhandene Viessmann-ViCare-Integration
 
+*Zwingend Erforderlich und erfolgreich Eingerichtet:* https://www.home-assistant.io/integrations/vicare/
+
 Diese zusätzliche Integration zeigt den Wasserverbrauch einer Vitoset Aqua in
 Home Assistant an. Sie verwendet die bereits eingerichtete ViCare-Verbindung.
 Die Anmeldung und die Erneuerung des Zugangstokens übernimmt weiterhin ViCare.
